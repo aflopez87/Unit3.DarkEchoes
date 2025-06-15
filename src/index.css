@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: white;
+}
+
+body {
+    background-color: #000033;
+}
+
+header {
+    padding: 20px;
+    font-size: 2rem;
+}
+
+main {
+    display: flex;
+    padding-left: 20px;
+}
+
+
+.listContainer{
+    width: 40%;
+}
+
+.episodeDetails{
+    width: 60%;
+    padding: 0 20px;
+}
+
+.default{
+    padding: 20px;
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+    padding: 10px;
+}
+
+.episodeList {
+    font-size: 1.5rem;
+    padding: 15px 0;
+}
+
+.episode:last-child{
+    border-bottom: none;
+}
+
+.episode{
+    padding: 15px;
+    border-bottom: 1px solid rgb(86, 120, 255);
+}
+
+.episode:hover{
+    background-color: rgb(19, 0, 125);
+}
+
+p {
+    padding: 10px;
+}
+
